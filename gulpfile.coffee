@@ -37,7 +37,7 @@ rename          = require 'gulp-rename'
 # Папки где находится проект
 folders = 
     development:    'development'
-    production:     'production'
+    production:     'bin'
 
     assets:
         public:     "public"

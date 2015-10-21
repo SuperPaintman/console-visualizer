@@ -228,40 +228,7 @@ class Visual
                 """
     $drawCat: (frame)-> console.log @.$getCat frame
 
-
-
 ###
 Exports
 ###
 module.exports = Visual
-
-
-visual = new Visual()
-
-min = 0
-cur = 0
-max = 57
-a = setInterval ->
-    if cur <= max
-        do visual.clear
-        console.log '\n'
-        visual.drawProgress min, cur, max
-        console.log '\n\n\n\n\n\n\n\n\n\n'
-        cur++
-    else
-        clearInterval a
-
-        $min = 0
-        $cur = 0
-        $max = 4
-        b = setInterval ->
-            do visual.clear
-            console.log '\n'
-            visual.drawProgress min, cur, max
-            console.log 'Congratulations'
-
-            visual.$drawCat $cur
-            $cur++
-            if $cur > $max then $cur = $min
-        , 200
-, 100

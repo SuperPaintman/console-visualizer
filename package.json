@@ -1,18 +1,35 @@
 {
-  "name": "package",
-  "version": "0.0.1",
-  "description": "",
-  "main": "production/app.js",
+  "name": "console-visualizer",
+  "version": "0.1.0",
+  "description": "Visualization in the console",
+  "main": "bin/app.js",
   "author": {
     "name": "superpaintman",
     "email": "superpaintmandeveloper@gmail.com",
     "url": "http://flatdev.ru/"
   },
   "scripts": {
-    "start": "node production/app.js"
+    "start": "node bin/app.js"
   },
-  "keywords": [],
-  "files": [],
+  "keywords": [
+    "progress bar",
+    "console",
+    "visualizer",
+    "visualization",
+    "ascii"
+  ],
+  "files": [
+    "development",
+    "bin",
+    "readme"
+  ],
+  "directories": {
+    "src": "development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperPaintman/console-visualizer.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "colors": "^1.1.2",
