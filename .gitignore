@@ -1,0 +1,30 @@
+# Модули
+node_modules/
+
+# Все приватные папки
+_*/
+
+# Зарендаренные файлы
+# production/
+
+# Backup
+backup/
+
+# Release
+release/
+
+# Docs
+docs/
+
+# Все bat файлы
+*.bat
+
+# Все логи
+*.log
+
+# Видео
+readme/*.mp4
+
+# Gulp
+gulpfile.js
+#gulpfile.coffee
