@@ -22,7 +22,8 @@ var Visualizer = require('console-visualizer');
 var visual = new Visualizer({
     progress: {
         scale: {
-            fill: "|"
+            fill: "|",
+            half: false
         }
     }
 });
@@ -41,6 +42,10 @@ loadInterval = setInterval(function() {
         clearInterval(loadInterval);
     }
 }, 100);
+
+/* Output:
+[||||||||||          ] 50%
+*/
 ~~~
 
 ------------------------------------
@@ -67,7 +72,11 @@ Object constructor
 Clear console
 
 ### getProgress(min, cur, max)
-Generate progress bar like this **[=====     ] 50%**
+Generate progress bar like this 
+```sh
+[==========          ] 50%
+```
+
 * `Integer` **min** - start of range
 * `Integer` **cur** - current value
 * `Integer` **max** - end of range
