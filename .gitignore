@@ -23,7 +23,7 @@ docs/
 *.log
 
 # Видео
-readme/*.mp4
+readme/src/
 
 # Gulp
 gulpfile.js
