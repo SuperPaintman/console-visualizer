@@ -1,6 +1,6 @@
 {
   "name": "console-visualizer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Visualization in the console",
   "main": "bin/app.js",
   "author": {

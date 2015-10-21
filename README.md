@@ -105,6 +105,29 @@ coffee -c gulpfile.coffee
 
 ------------------------------------
 
+## Roadmap
+* Add more visual progress bars. Like this
+
+```coffee
+###
+      ________
+     `.______,'
+      (______)
+      <      >
+       )    (
+      /`----.\
+     /        \
+    / _    _   \
+   :,' `-.' `.' :
+   | *    O   * |
+   :    o   o   ;
+    \ .  * .   /
+     `.______.'
+###
+```
+
+------------------------------------
+
 ## Changelog
 ### 1.0.0 [ `Stable` ]
 * `Add` - first realise
