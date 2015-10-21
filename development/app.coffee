@@ -51,9 +51,11 @@ class Visual
      * @param  {Boolean}            [opts.progress.text.draw=true]
      * @param  {Boolean}            [opts.progress.text.floor=true]
      * 
+     * @param  {Object}             [opts.progress.braces]
      * @param  {Boolean|Char}       [opts.progress.braces.open="["]
      * @param  {Boolean|Char}       [opts.progress.braces.close="]"]
      * 
+     * @param  {Object}             [opts.progress.scale]
      * @param  {Char}               [opts.progress.scale.fill="="]
      * @param  {Boolean|Char}       [opts.progress.scale.half="-"]
      * @param  {Char}               [opts.progress.scale.empty=" "]
